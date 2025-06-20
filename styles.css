@@ -1,0 +1,104 @@
+h2 {
+    color: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+body {
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    display: flex;
+    justify-content: center;/*CENTRALIZAR O TEXTO NA HORIZONTAL*/
+    align-items: center;/* CENTRALIZAR O TEXTO NA VERTICAL*/
+    height: 100vh;/*ALTURA/vh=dividir a tela em 100 partes e pegar quantas partes quiser*/
+    width: 100vw;/*LARGURA*/
+}
+
+.caixa-maior/*NOME DA CLASS*/
+    {
+    background-color: black;/* MUDAR COR DE FUNDO*/
+    width: 95%;/* LARGURA */
+    max-width: 420px; /* Largura Máxima*/
+    opacity: 0.6; /*transparencia do item*/
+    padding: 20px;
+    border-radius: 25px;
+
+}
+
+input { /*caixa para pesquisar*/
+    
+    border: none;/*borda da caixinha*/
+    outline: none;/*marcaçao ao clicar (caixinha)*/
+    padding: 10px;/*espaçamento de dentro para fora (interno)*/
+    border-radius: 24px;/*arredonda as bordas*/
+    font-size: 20px;/*tamanho do texto(letras)*/
+    background-color: #7c7c7c2b;/*cor de fundo*/
+    color: white;
+    width: calc( 100% - 100px); /*calc= cálculo/ nessa configuração o input vai ocupar toda a tela menos 100px*/
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right; /*mover o botão para direita*/
+    cursor: pointer;/*quando a setinha do mouse ficar encima do botao vai mjdar para uma mao*/
+}
+
+.caixa-media {
+    margin-top: 20px; /*margem de cima*/
+}
+
+.caixa-menor{
+
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+
+}
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+/*hover=quando passar o mouse encima do botao ele muda a cor*/
+
+.lupa {
+    height: 20px;/*altura*/
+
+}
+
+h2 {
+    color: white;
+    font-size: 28px;/*TAMANHO DO TEXTO*/
+}
+
+.temp {
+    color: beige;
+    margin-top: 30px;
+    
+}
+
+.descricao { 
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+} 
+
+.umidade {
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width:1000px){
+
+    
+
+}
