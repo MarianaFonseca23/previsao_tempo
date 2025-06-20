@@ -34,5 +34,7 @@ Crie esse site para pode vermos em tempo real a previsão do tempo da cidade em 
    git clone https://github.com/MarianaFonseca23/previsao_tempo
 
 2.Abra o arquivo;
+
 3. No input digite a cidade em que você quer vê a previsão do tempo;
-4. Clique no botao e abaixo vai aparecer o tempo e o clima da cidade desejada.
+   
+5. Clique no botao e abaixo vai aparecer o tempo e o clima da cidade desejada.
